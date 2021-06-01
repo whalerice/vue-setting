@@ -1,0 +1,57 @@
+#app {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	padding-top: $headerHeight;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: $headerHeight;
+	width: 100%;
+	z-index: 99;
+}
+
+.ps {
+	&:hover {
+		&.ps--active-x > .ps__rail-x,
+		&.ps--active-y > .ps__rail-y {
+			z-index: 100;
+		}
+	}
+}
+
+.view-enter-active,
+.view-leave-active {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: $headerHeight;
+	transition: opacity 0.5s;
+}
+
+.view-enter,
+.view-leave-to {
+	position: static;
+	opacity: 0;
+}
+
+.chart {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#databox {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 200px;
+}

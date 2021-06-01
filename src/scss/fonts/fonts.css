@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Spoqa Han Sans Neo';
+	font-weight: 700;
+	src: local('Spoqa Han Sans Bold'), url('./SpoqaHanSansNeo-Bold.woff2') format('woff2'), url('./SpoqaHanSansNeo-Bold.woff') format('woff'), url('./SpoqaHanSansNeo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spoqa Han Sans Neo';
+	font-weight: 400;
+	src: local('Spoqa Han Sans Regular'), url('./SpoqaHanSansNeo-Regular.woff2') format('woff2'), url('./SpoqaHanSansNeo-Regular.woff') format('woff'), url('./SpoqaHanSansNeo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spoqa Han Sans Neo';
+	font-weight: 300;
+	src: local('Spoqa Han Sans Medium'), url('./SpoqaHanSansNeo-Medium.woff2') format('woff2'), url('./SpoqaHanSansNeo-Medium.woff') format('woff'), url('./SpoqaHanSansNeo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spoqa Han Sans Neo';
+	font-weight: 200;
+	src: local('Spoqa Han Sans Light'), url('./SpoqaHanSansNeo-Light.woff2') format('woff2'), url('./SpoqaHanSansNeo-Light.woff') format('woff'), url('./SpoqaHanSansNeo-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spoqa Han Sans Neo';
+	font-weight: 100;
+	src: local('Spoqa Han Sans Thin'), url('./SpoqaHanSansNeo-Thin.woff2') format('woff2'), url('./SpoqaHanSansNeo-Thin.woff') format('woff'), url('./SpoqaHanSansNeo-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Wemakeprice';
+	font-weight: 700;
+	src: local('Wemakeprice-Bold'), url('./Wemakeprice-Bold.woff2') format('woff2'), url('./Wemakeprice-bold.woff') format('woff'), url('./Wemakeprice-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Wemakeprice';
+	font-weight: 400;
+	src: local('Wemakeprice-Regular'), url('./Wemakeprice-Regular.woff2') format('woff2'), url('./Wemakeprice-regular.woff') format('woff'), url('./Wemakeprice-Regular.ttf') format('truetype');
+}
